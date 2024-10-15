@@ -1,0 +1,176 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+body{
+    background-image: linear-gradient(#c1f7f7,#86f7bc);
+}
+#content{
+    margin: auto;
+    width: 300;
+    height: 480;
+    margin-top: 200px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #232322;
+    background-color: #323331;
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px;  
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.56), 0 6px 20px 0 rgba(0,0,0,0.34); 
+}
+#risultato{
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 250;
+    height: 50;
+    background:radial-gradient(#252525);
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px;
+}
+#calcolatrice{
+    background-color: #323331;
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px;
+}
+#calcolatrice>table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323331;
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px; 
+}
+
+table{
+    border-collapse: collapse;
+    background-color:rgb(19, 19, 19);
+}
+tr{
+    background-color: #323331;  
+}
+td{
+    background-color: #323331;
+}
+button{
+    border: 1;
+    width: 60;
+    height: 60;
+    border-radius: 100px;
+    -moz-border-radius: 100px; 
+    -webkit-border-radius:100px;
+    font-size: large;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button.AC{
+    border: rgb(38 81 41);
+    background-color: rgb(38 81 41);
+    color: 203, 229, 251;
+}
+button.parentesi{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 205, 239, 208;
+}
+button.divisione{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 203, 229, 251;
+    font-size: x-large;
+}
+button.percentuale{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 203, 229, 251;
+}
+tr.risultato>td{
+    background-color: rgb(46, 47, 52);
+    border: 3px solid;
+}
+
+button.virgola{
+    border: 3px solid rgb(28,29,31);
+    background-color: rgb(28,29,31);
+}
+
+button.indietro{
+    border: 3px solid rgb(28,29,31);
+    background-color: rgb(28,29,31);
+}
+button.indietro>i{
+    background-color: rgb(28,29,31);
+}
+button.moltiplicazione{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 205, 239, 208;
+}
+button.sottrazione{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 205, 239, 208;
+    font-size: x-large;
+}
+button.addizione{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 205, 239, 208;
+    font-size: x-large;
+}
+button.uguale{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 205, 239, 208;
+    font-size: x-large;
+}
+button.virgola:hover{
+    border: rgb(73 74 76);
+    background-color: rgb(73 74 76);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button.indietro:hover{
+    border: rgb(73 74 76);
+    background-color: rgb(73 74 76);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+i:hover{
+    border: rgb(73 74 76);
+    background-color: rgb(73 74 76);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button.funzioni1{
+    border: rgb(19, 19, 19);
+    background-color: #323331;
+}
+button.funzioni1:hover{
+    border: rgb(73 74 76);
+    background-color: rgb(73 74 76);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button.numero{
+    border: 3px solid rgb(28,29,31);
+    background-color: rgb(28,29,31);
+}
+button.numero:hover{
+    border: rgb(73 74 76);
+    background-color: rgb(73 74 76);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button.funzioni{
+    border: rgb(29 73 116);
+    background-color: rgb(29 73 116);
+    color: 205, 239, 208;
+}
+button.funzioni:hover{
+    border: rgb(66 109 143);
+    background-color: rgb(66 109 143);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button.AC:hover{
+    border: rgb(76 116 82);
+    background-color: rgb(76 116 82);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

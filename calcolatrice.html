@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Calcolatrice</title>
+        <link href="calcolatrice.css" rel="stylesheet" type="text/css">
+        <script src="calcolatrice.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div id="risultato" class="globale">
+            </div>
+            <div id="calcolatrice">
+                <table id="button">
+                    <tr id="bottoni">
+                        <td><button class="funzioni1"onclick="sqrt()">√</button></td>
+                        <td><button class="funzioni1"onclick="pigreco()">π</button></td>
+                        <td><button class="funzioni1"onclick="potenza()">^</button></td>
+                        <td><button class="funzioni1" onclick="fattoriale()">!</button></td>
+                    </tr>
+                    <tr id="bottoni1">
+                        <td><button class="AC"onclick="AC()">AC</button></td>
+                        <td><button class="funzioni"onclick="parentesi()">()</button></td>
+                        <td><button class="funzioni"onclick="percentuale()">%</button></td>
+                        <td><button class="funzioni" onclick="divisione()">&#247</button></td>
+                    </tr>
+                    <tr id="bottoni2">
+                        <td><button class="numero" onclick="numero7()">7</button></td>
+                        <td><button class="numero" onclick="numero8()">8</button></td>
+                        <td><button class="numero" onclick="numero9()">9</button></td>
+                        <td><button class="funzioni" onclick="moltiplicazione()">&times</button></td>
+                    </tr>
+                    <tr id="bottoni3">
+                        <td><button class="numero" onclick="numero4()">4</button></td>
+                        <td><button class="numero" onclick="numero5()">5</button></td>
+                        <td><button class="numero" onclick="numero6()">6</button></td>
+                        <td><button class="funzioni" onclick= "sottrazione()">-</button></td>
+                    </tr>
+                    <tr id="bottoni4">
+                        <td><button class="numero" onclick="numero1()">1</button></td>
+                        <td><button class="numero" onclick="numero2()">2</button></td>
+                        <td><button class="numero" onclick="numero3()">3</button></td>
+                        <td><button class="funzioni" onclick="somma()">+</button></td>
+                    </tr>
+                    <tr id="bottoni5">
+                        <td><button class="numero" onclick="numero0()">0</button></td>
+                        <td><button class="virgola" onclick="virgola()">,</button></td>
+                        <td><button class="indietro" onclick="backspace()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m456-320 104-104 104 104 56-56-104-104 104-104-56-56-104 104-104-104-56 56 104 104-104 104 56 56Zm-96 160q-19 0-36-8.5T296-192L80-480l216-288q11-15 28-23.5t36-8.5h440q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H360ZM180-480l180 240h440v-480H360L180-480Zm400 0Z"/></svg></button></td>
+                        <td><button class="funzioni" onclick="uguale()">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
