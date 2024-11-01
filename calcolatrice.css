@@ -129,17 +129,14 @@ button.uguale{
 button.virgola:hover{
     border: rgb(73 74 76);
     background-color: rgb(73 74 76);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 button.indietro:hover{
     border: rgb(73 74 76);
     background-color: rgb(73 74 76);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 i:hover{
     border: rgb(73 74 76);
     background-color: rgb(73 74 76);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 button.funzioni1{
     border: rgb(19, 19, 19);
@@ -148,7 +145,6 @@ button.funzioni1{
 button.funzioni1:hover{
     border: rgb(73 74 76);
     background-color: rgb(73 74 76);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 button.numero{
     border: 3px solid rgb(28,29,31);
@@ -157,7 +153,6 @@ button.numero{
 button.numero:hover{
     border: rgb(73 74 76);
     background-color: rgb(73 74 76);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 button.funzioni{
     border: rgb(29 73 116);
@@ -167,10 +162,40 @@ button.funzioni{
 button.funzioni:hover{
     border: rgb(66 109 143);
     background-color: rgb(66 109 143);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 button.AC:hover{
     border: rgb(76 116 82);
     background-color: rgb(76 116 82);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+@media only screen and (min-width: 708px) {
+    button.funzioni:hover{
+        border: rgb(66 109 143);
+        background-color: rgb(66 109 143);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    button.AC:hover{
+        border: rgb(76 116 82);
+        background-color: rgb(76 116 82);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    button.numero:hover{
+        border: rgb(73 74 76);
+        background-color: rgb(73 74 76);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    button.funzioni1:hover{
+        border: rgb(73 74 76);
+        background-color: rgb(73 74 76);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    button.virgola:hover{
+        border: rgb(73 74 76);
+        background-color: rgb(73 74 76);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    button.indietro:hover{
+        border: rgb(73 74 76);
+        background-color: rgb(73 74 76);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
 }
